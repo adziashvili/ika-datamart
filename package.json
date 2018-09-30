@@ -7,7 +7,10 @@
     "prepublish": "npm run build",
     "build": "babel source --out-dir distribution",
     "start": "babel-node source/index.js",
-    "test": "npm run build && node distribution/test/selftest.js"
+    "test": "jest"
+  },
+  "jest": {
+    "rootDir": "source"
   },
   "repository": {
     "type": "git",
@@ -27,5 +30,8 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "ika-helpers": "^1.0.17"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
