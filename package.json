@@ -2,12 +2,12 @@
   "name": "ika-datamart",
   "version": "1.0.0",
   "description": "Easy data set analysis",
-  "main": "source/index.js",
+  "main": "distribution/index.js",
   "scripts": {
     "prepublish": "npm run build",
     "build": "babel source --out-dir distribution",
     "start": "babel-node source/index.js",
-    "test": "babel-node source/test/selftest.js"
+    "test": "npm run build && node distribution/test/selftest.js"
   },
   "repository": {
     "type": "git",
