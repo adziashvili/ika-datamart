@@ -1,8 +1,8 @@
-    import Analyzer from './datamart/analyzer'
-    import Dictionary from './datamart/dictionary'
-    import Record from './datamart/record'
-    import Table from './datamart/table'
-    import BaseExcelParser from './datamart/baseExcelParser'
+    import Analyzer from './analyzer'
+    import Dictionary from './dictionary'
+    import Record from './record'
+    import Table from './table'
+    import BaseExcelParser from './baseExcelParser'
 
     export {
       Analyzer,

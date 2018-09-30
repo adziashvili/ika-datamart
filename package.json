@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "jest": {
-    "rootDir": "source"
+    "rootDir": "test"
   },
   "repository": {
     "type": "git",
