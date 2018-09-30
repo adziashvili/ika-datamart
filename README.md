@@ -1,2 +1,2 @@
 # ika-datamart
-Quick datasets analysis frmaework
+Quick datasets analysis framework
